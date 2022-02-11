@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = s3_storage
 ['remote "storage"']
     url = gdrive://1SYcKzZypgLUnvJmbKPz_W7rJ9x_qYHPE
+['remote "s3_storage"']
+    url = s3://legko90.ok-s3-bucket/dvc_remote_folder
